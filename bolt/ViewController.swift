@@ -24,7 +24,7 @@ class ViewController: NSViewController, NSWindowDelegate {
     
     @IBAction func removeAllText(_ sender: Any) {
         textFieldForText.string! = ""
-        print("All text removed from NSTextField")
+        print("All text removed from text field")
     }
     
     @IBAction func setNewText(_ sender: Any) {
